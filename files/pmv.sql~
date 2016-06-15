@@ -1,0 +1,3 @@
+-- municipio, serie_dado
+select a.municipio_id, a.indice, (select (select (select d.nome from tipo_dado as d where c.tipo_dado_id=d.tipo_dado_id) from categoria as c where b.categoria_id=c.categoria_id) from serie_dado as b where a.serie_dado_id=b.serie_dado_id), (select (select c.nome from categoria as c where b.categoria_id=c.categoria_id) from serie_dado as b where a.serie_dado_id=b.serie_dado_id), (select b.data from serie_dado as b where a.serie_dado_id=b.serie_dado_id) from municipio_indice as a
+

@@ -1,0 +1,777 @@
+"state","geocode","nome","id"
+"RO","1100015","Alta Floresta D'Oeste",1
+"RO","1100379","Alto Alegre dos Parecis",2
+"RO","1100403","Alto Paraíso",3
+"RO","1100346","Alvorada D'Oeste",4
+"RO","1100023","Ariquemes",5
+"RO","1100452","Buritis",6
+"RO","1100031","Cabixi",7
+"RO","1100601","Cacaulândia",8
+"RO","1100049","Cacoal",9
+"RO","1100700","Campo Novo de Rondônia",10
+"RO","1100809","Candeias do Jamari",11
+"RO","1100908","Castanheiras",12
+"RO","1100056","Cerejeiras",13
+"RO","1100924","Chupinguaia",14
+"RO","1100064","Colorado do Oeste",15
+"RO","1100072","Corumbiara",16
+"RO","1100080","Costa Marques",17
+"RO","1100940","Cujubim",18
+"RO","1100098","Espigão D'Oeste",19
+"RO","1101005","Governador Jorge Teixeira",20
+"RO","1100106","Guajará-Mirim",21
+"RO","1101104","Itapuã do Oeste",22
+"RO","1100114","Jaru",23
+"RO","1100122","Ji-Paraná",24
+"RO","1100130","Machadinho D'Oeste",25
+"RO","1101203","Ministro Andreazza",26
+"RO","1101302","Mirante da Serra",27
+"RO","1101401","Monte Negro",28
+"RO","1100148","Nova Brasilândia D'Oeste",29
+"RO","1100338","Nova Mamoré",30
+"RO","1101435","Nova União",31
+"RO","1100502","Novo Horizonte do Oeste",32
+"RO","1100155","Ouro Preto do Oeste",33
+"RO","1101450","Parecis",34
+"RO","1100189","Pimenta Bueno",35
+"RO","1101468","Pimenteiras do Oeste",36
+"RO","1100205","Porto Velho",37
+"RO","1100254","Presidente Médici",38
+"RO","1101476","Primavera de Rondônia",39
+"RO","1100262","Rio Crespo",40
+"RO","1100288","Rolim de Moura",41
+"RO","1100296","Santa Luzia D'Oeste",42
+"RO","1101484","São Felipe D'Oeste",43
+"RO","1101492","São Francisco do Guaporé",44
+"RO","1100320","São Miguel do Guaporé",45
+"RO","1101500","Seringueiras",46
+"RO","1101559","Teixeirópolis",47
+"RO","1101609","Theobroma",48
+"RO","1101708","Urupá",49
+"RO","1101757","Vale do Anari",50
+"RO","1101807","Vale do Paraíso",51
+"RO","1100304","Vilhena",52
+"AC","1200013","Acrelândia",53
+"AC","1200054","Assis Brasil",54
+"AC","1200104","Brasiléia",55
+"AC","1200138","Bujari",56
+"AC","1200179","Capixaba",57
+"AC","1200203","Cruzeiro do Sul",58
+"AC","1200252","Epitaciolândia",59
+"AC","1200302","Feijó",60
+"AC","1200328","Jordão",61
+"AC","1200336","Mâncio Lima",62
+"AC","1200344","Manoel Urbano",63
+"AC","1200351","Marechal Thaumaturgo",64
+"AC","1200385","Plácido de Castro",65
+"AC","1200807","Porto Acre",66
+"AC","1200393","Porto Walter",67
+"AC","1200401","Rio Branco",68
+"AC","1200427","Rodrigues Alves",69
+"AC","1200435","Santa Rosa do Purus",70
+"AC","1200500","Sena Madureira",71
+"AC","1200450","Senador Guiomard",72
+"AC","1200609","Tarauacá",73
+"AC","1200708","Xapuri",74
+"AM","1300029","Alvarães",75
+"AM","1300060","Amaturá",76
+"AM","1300086","Anamã",77
+"AM","1300102","Anori",78
+"AM","1300144","Apuí",79
+"AM","1300201","Atalaia do Norte",80
+"AM","1300300","Autazes",81
+"AM","1300409","Barcelos",82
+"AM","1300508","Barreirinha",83
+"AM","1300607","Benjamin Constant",84
+"AM","1300631","Beruri",85
+"AM","1300680","Boa Vista do Ramos",86
+"AM","1300706","Boca do Acre",87
+"AM","1300805","Borba",88
+"AM","1300839","Caapiranga",89
+"AM","1300904","Canutama",90
+"AM","1301001","Carauari",91
+"AM","1301100","Careiro",92
+"AM","1301159","Careiro da Várzea",93
+"AM","1301209","Coari",94
+"AM","1301308","Codajás",95
+"AM","1301407","Eirunepé",96
+"AM","1301506","Envira",97
+"AM","1301605","Fonte Boa",98
+"AM","1301654","Guajará",99
+"AM","1301704","Humaitá",100
+"AM","1301803","Ipixuna",101
+"AM","1301852","Iranduba",102
+"AM","1301902","Itacoatiara",103
+"AM","1301951","Itamarati",104
+"AM","1302009","Itapiranga",105
+"AM","1302108","Japurá",106
+"AM","1302207","Juruá",107
+"AM","1302306","Jutaí",108
+"AM","1302405","Lábrea",109
+"AM","1302504","Manacapuru",110
+"AM","1302553","Manaquiri",111
+"AM","1302603","Manaus",112
+"AM","1302702","Manicoré",113
+"AM","1302801","Maraã",114
+"AM","1302900","Maués",115
+"AM","1303007","Nhamundá",116
+"AM","1303106","Nova Olinda do Norte",117
+"AM","1303205","Novo Airão",118
+"AM","1303304","Novo Aripuanã",119
+"AM","1303403","Parintins",120
+"AM","1303502","Pauini",121
+"AM","1303536","Presidente Figueiredo",122
+"AM","1303569","Rio Preto da Eva",123
+"AM","1303601","Santa Isabel do Rio Negro",124
+"AM","1303700","Santo Antônio do Içá",125
+"AM","1303809","São Gabriel da Cachoeira",126
+"AM","1303908","São Paulo de Olivença",127
+"AM","1303957","São Sebastião do Uatumã",128
+"AM","1304005","Silves",129
+"AM","1304062","Tabatinga",130
+"AM","1304104","Tapauá",131
+"AM","1304203","Tefé",132
+"AM","1304237","Tonantins",133
+"AM","1304260","Uarini",134
+"AM","1304302","Urucará",135
+"AM","1304401","Urucurituba",136
+"PA","1500107","Abaetetuba",152
+"PA","1500131","Abel Figueiredo",153
+"PA","1500206","Acará",154
+"PA","1500305","Afuá",155
+"PA","1500347","Água Azul do Norte",156
+"PA","1500404","Alenquer",157
+"PA","1500503","Almeirim",158
+"PA","1500602","Altamira",159
+"PA","1500701","Anajás",160
+"PA","1500800","Ananindeua",161
+"PA","1500859","Anapu",162
+"PA","1500909","Augusto Corrêa",163
+"PA","1500958","Aurora do Pará",164
+"PA","1501006","Aveiro",165
+"PA","1501105","Bagre",166
+"PA","1501204","Baião",167
+"PA","1501253","Bannach",168
+"PA","1501303","Barcarena",169
+"PA","1501402","Belém",170
+"PA","1501451","Belterra",171
+"PA","1501501","Benevides",172
+"PA","1501576","Bom Jesus do Tocantins",173
+"PA","1501600","Bonito",174
+"PA","1501709","Bragança",175
+"PA","1501725","Brasil Novo",176
+"PA","1501758","Brejo Grande do Araguaia",177
+"PA","1501782","Breu Branco",178
+"PA","1501808","Breves",179
+"PA","1501907","Bujaru",180
+"PA","1502004","Cachoeira do Arari",181
+"PA","1501956","Cachoeira do Piriá",182
+"PA","1502103","Cametá",183
+"PA","1502152","Canaã dos Carajás",184
+"PA","1502202","Capanema",185
+"PA","1502301","Capitão Poço",186
+"PA","1502400","Castanhal",187
+"PA","1502509","Chaves",188
+"PA","1502608","Colares",189
+"PA","1502707","Conceição do Araguaia",190
+"PA","1502756","Concórdia do Pará",191
+"PA","1502764","Cumaru do Norte",192
+"PA","1502772","Curionópolis",193
+"PA","1502806","Curralinho",194
+"PA","1502855","Curuá",195
+"PA","1502905","Curuçá",196
+"PA","1502939","Dom Eliseu",197
+"PA","1502954","Eldorado dos Carajás",198
+"PA","1503002","Faro",199
+"PA","1503044","Floresta do Araguaia",200
+"PA","1503077","Garrafão do Norte",201
+"PA","1503093","Goianésia do Pará",202
+"PA","1503101","Gurupá",203
+"PA","1503200","Igarapé-Açu",204
+"PA","1503309","Igarapé-Miri",205
+"PA","1503408","Inhangapi",206
+"PA","1503457","Ipixuna do Pará",207
+"PA","1503507","Irituia",208
+"PA","1503606","Itaituba",209
+"PA","1503705","Itupiranga",210
+"PA","1503754","Jacareacanga",211
+"PA","1503804","Jacundá",212
+"PA","1503903","Juruti",213
+"PA","1504000","Limoeiro do Ajuru",214
+"PA","1504059","Mãe do Rio",215
+"PA","1504109","Magalhães Barata",216
+"PA","1504208","Marabá",217
+"PA","1504307","Maracanã",218
+"PA","1504406","Marapanim",219
+"PA","1504422","Marituba",220
+"PA","1504455","Medicilândia",221
+"PA","1504505","Melgaço",222
+"PA","1504604","Mocajuba",223
+"PA","1504703","Moju",224
+"PA","1504802","Monte Alegre",225
+"PA","1504901","Muaná",226
+"PA","1504950","Nova Esperança do Piriá",227
+"PA","1504976","Nova Ipixuna",228
+"PA","1505007","Nova Timboteua",229
+"PA","1505031","Novo Progresso",230
+"PA","1505064","Novo Repartimento",231
+"PA","1505106","Óbidos",232
+"PA","1505205","Oeiras do Pará",233
+"PA","1505304","Oriximiná",234
+"PA","1505403","Ourém",235
+"PA","1505437","Ourilândia do Norte",236
+"PA","1505486","Pacajá",237
+"PA","1505494","Palestina do Pará",238
+"PA","1505502","Paragominas",239
+"PA","1505536","Parauapebas",240
+"PA","1505551","Pau D'Arco",241
+"PA","1505601","Peixe-Boi",242
+"PA","1505635","Piçarra",243
+"PA","1505650","Placas",244
+"PA","1505700","Ponta de Pedras",245
+"PA","1505809","Portel",246
+"PA","1505908","Porto de Moz",247
+"PA","1506005","Prainha",248
+"PA","1506104","Primavera",249
+"PA","1506112","Quatipuru",250
+"PA","1506138","Redenção",251
+"PA","1506161","Rio Maria",252
+"PA","1506187","Rondon do Pará",253
+"PA","1506195","Rurópolis",254
+"PA","1506203","Salinópolis",255
+"PA","1506302","Salvaterra",256
+"PA","1506351","Santa Bárbara do Pará",257
+"PA","1506401","Santa Cruz do Arari",258
+"PA","1506500","Santa Isabel do Pará",259
+"PA","1506559","Santa Luzia do Pará",260
+"PA","1506583","Santa Maria das Barreiras",261
+"PA","1506609","Santa Maria do Pará",262
+"PA","1506708","Santana do Araguaia",263
+"PA","1506807","Santarém",264
+"PA","1506906","Santarém Novo",265
+"PA","1507003","Santo Antônio do Tauá",266
+"PA","1507102","São Caetano de Odivelas",267
+"PA","1507151","São Domingos do Araguaia",268
+"PA","1507201","São Domingos do Capim",269
+"PA","1507300","São Félix do Xingu",270
+"PA","1507409","São Francisco do Pará",271
+"PA","1507458","São Geraldo do Araguaia",272
+"PA","1507466","São João da Ponta",273
+"PA","1507474","São João de Pirabas",274
+"PA","1507508","São João do Araguaia",275
+"PA","1507607","São Miguel do Guamá",276
+"PA","1507706","São Sebastião da Boa Vista",277
+"PA","1507755","Sapucaia",278
+"PA","1507805","Senador José Porfírio",279
+"PA","1507904","Soure",280
+"PA","1507953","Tailândia",281
+"PA","1507961","Terra Alta",282
+"PA","1507979","Terra Santa",283
+"PA","1508001","Tomé-Açu",284
+"PA","1508035","Tracuateua",285
+"PA","1508050","Trairão",286
+"PA","1508084","Tucumã",287
+"PA","1508100","Tucuruí",288
+"PA","1508126","Ulianópolis",289
+"PA","1508159","Uruará",290
+"PA","1508209","Vigia",291
+"PA","1508308","Viseu",292
+"PA","1508357","Vitória do Xingu",293
+"PA","1508407","Xinguara",294
+"TO","1700251","Abreulândia",311
+"TO","1700301","Aguiarnópolis",312
+"TO","1700350","Aliança do Tocantins",313
+"TO","1700400","Almas",314
+"TO","1700707","Alvorada",315
+"TO","1701002","Ananás",316
+"TO","1701051","Angico",317
+"TO","1701101","Aparecida do Rio Negro",318
+"TO","1701309","Aragominas",319
+"TO","1701903","Araguacema",320
+"TO","1702000","Araguaçu",321
+"TO","1702109","Araguaína",322
+"TO","1702158","Araguanã",323
+"TO","1702208","Araguatins",324
+"TO","1702307","Arapoema",325
+"TO","1702406","Arraias",326
+"TO","1702554","Augustinópolis",327
+"TO","1702703","Aurora do Tocantins",328
+"TO","1702901","Axixá do Tocantins",329
+"TO","1703008","Babaçulândia",330
+"TO","1703057","Bandeirantes do Tocantins",331
+"TO","1703073","Barra do Ouro",332
+"TO","1703107","Barrolândia",333
+"TO","1703206","Bernardo Sayão",334
+"TO","1703305","Bom Jesus do Tocantins",335
+"TO","1703602","Brasilândia do Tocantins",336
+"TO","1703701","Brejinho de Nazaré",337
+"TO","1703800","Buriti do Tocantins",338
+"TO","1703826","Cachoeirinha",339
+"TO","1703842","Campos Lindos",340
+"TO","1703867","Cariri do Tocantins",341
+"TO","1703883","Carmolândia",342
+"TO","1703891","Carrasco Bonito",343
+"TO","1703909","Caseara",344
+"TO","1704105","Centenário",345
+"TO","1705102","Chapada da Natividade",346
+"TO","1704600","Chapada de Areia",347
+"TO","1705508","Colinas do Tocantins",348
+"TO","1716703","Colméia",349
+"TO","1705557","Combinado",350
+"TO","1705607","Conceição do Tocantins",351
+"TO","1706001","Couto Magalhães",352
+"TO","1706100","Cristalândia",353
+"TO","1706258","Crixás do Tocantins",354
+"TO","1706506","Darcinópolis",355
+"TO","1707009","Dianópolis",356
+"TO","1707108","Divinópolis do Tocantins",357
+"TO","1707207","Dois Irmãos do Tocantins",358
+"TO","1707306","Dueré",359
+"TO","1707405","Esperantina",360
+"TO","1707553","Fátima",361
+"TO","1707652","Figueirópolis",362
+"TO","1707702","Filadélfia",363
+"TO","1708205","Formoso do Araguaia",364
+"TO","1708254","Fortaleza do Tabocão",365
+"TO","1708304","Goianorte",366
+"TO","1709005","Goiatins",367
+"TO","1709302","Guaraí",368
+"TO","1709500","Gurupi",369
+"TO","1709807","Ipueiras",370
+"TO","1710508","Itacajá",371
+"TO","1710706","Itaguatins",372
+"TO","1710904","Itapiratins",373
+"TO","1711100","Itaporã do Tocantins",374
+"TO","1711506","Jaú do Tocantins",375
+"TO","1711803","Juarina",376
+"TO","1711902","Lagoa da Confusão",377
+"TO","1711951","Lagoa do Tocantins",378
+"TO","1712009","Lajeado",379
+"TO","1712157","Lavandeira",380
+"TO","1712405","Lizarda",381
+"TO","1712454","Luzinópolis",382
+"TO","1712504","Marianópolis do Tocantins",383
+"TO","1712702","Mateiros",384
+"TO","1712801","Maurilândia do Tocantins",385
+"TO","1713205","Miracema do Tocantins",386
+"TO","1713304","Miranorte",387
+"TO","1713601","Monte do Carmo",388
+"TO","1713700","Monte Santo do Tocantins",389
+"TO","1713957","Muricilândia",390
+"TO","1714203","Natividade",391
+"TO","1714302","Nazaré",392
+"TO","1714880","Nova Olinda",393
+"TO","1715002","Nova Rosalândia",394
+"TO","1715101","Novo Acordo",395
+"TO","1715150","Novo Alegre",396
+"TO","1715259","Novo Jardim",397
+"TO","1715507","Oliveira de Fátima",398
+"TO","1721000","Palmas",399
+"TO","1715705","Palmeirante",400
+"TO","1713809","Palmeiras do Tocantins",401
+"TO","1715754","Palmeirópolis",402
+"TO","1716109","Paraíso do Tocantins",403
+"TO","1716208","Paranã",404
+"TO","1716307","Pau D'Arco",405
+"TO","1716505","Pedro Afonso",406
+"TO","1716604","Peixe",407
+"TO","1716653","Pequizeiro",408
+"TO","1717008","Pindorama do Tocantins",409
+"TO","1717206","Piraquê",410
+"TO","1717503","Pium",411
+"TO","1717800","Ponte Alta do Bom Jesus",412
+"TO","1717909","Ponte Alta do Tocantins",413
+"TO","1718006","Porto Alegre do Tocantins",414
+"TO","1718204","Porto Nacional",415
+"TO","1718303","Praia Norte",416
+"TO","1718402","Presidente Kennedy",417
+"TO","1718451","Pugmil",418
+"TO","1718501","Recursolândia",419
+"TO","1718550","Riachinho",420
+"TO","1718659","Rio da Conceição",421
+"TO","1718709","Rio dos Bois",422
+"TO","1718758","Rio Sono",423
+"TO","1718808","Sampaio",424
+"TO","1718840","Sandolândia",425
+"TO","1718865","Santa Fé do Araguaia",426
+"TO","1718881","Santa Maria do Tocantins",427
+"TO","1718899","Santa Rita do Tocantins",428
+"TO","1718907","Santa Rosa do Tocantins",429
+"TO","1719004","Santa Tereza do Tocantins",430
+"TO","1720002","Santa Terezinha do Tocantins",431
+"TO","1720101","São Bento do Tocantins",432
+"TO","1720150","São Félix do Tocantins",433
+"TO","1720200","São Miguel do Tocantins",434
+"TO","1720259","São Salvador do Tocantins",435
+"TO","1720309","São Sebastião do Tocantins",436
+"TO","1720499","São Valério",437
+"TO","1720655","Silvanópolis",438
+"TO","1720804","Sítio Novo do Tocantins",439
+"TO","1720853","Sucupira",440
+"TO","1720903","Taguatinga",441
+"TO","1720937","Taipas do Tocantins",442
+"TO","1720978","Talismã",443
+"TO","1721109","Tocantínia",444
+"TO","1721208","Tocantinópolis",445
+"TO","1721257","Tupirama",446
+"TO","1721307","Tupiratins",447
+"TO","1722081","Wanderlândia",448
+"TO","1722107","Xambioá",449
+"MA","2100055","Açailândia",450
+"MA","2100105","Afonso Cunha",451
+"MA","2100154","Água Doce do Maranhão",452
+"MA","2100204","Alcântara",453
+"MA","2100303","Aldeias Altas",454
+"MA","2100402","Altamira do Maranhão",455
+"MA","2100436","Alto Alegre do Maranhão",456
+"MA","2100477","Alto Alegre do Pindaré",457
+"MA","2100501","Alto Parnaíba",458
+"MA","2100550","Amapá do Maranhão",459
+"MA","2100600","Amarante do Maranhão",460
+"MA","2100709","Anajatuba",461
+"MA","2100808","Anapurus",462
+"MA","2100832","Apicum-Açu",463
+"MA","2100873","Araguanã",464
+"MA","2100907","Araioses",465
+"MA","2100956","Arame",466
+"MA","2101004","Arari",467
+"MA","2101103","Axixá",468
+"MA","2101202","Bacabal",469
+"MA","2101251","Bacabeira",470
+"MA","2101301","Bacuri",471
+"MA","2101350","Bacurituba",472
+"MA","2101400","Balsas",473
+"MA","2101509","Barão de Grajaú",474
+"MA","2101608","Barra do Corda",475
+"MA","2101707","Barreirinhas",476
+"MA","2101772","Bela Vista do Maranhão",477
+"MA","2101731","Belágua",478
+"MA","2101806","Benedito Leite",479
+"MA","2101905","Bequimão",480
+"MA","2101939","Bernardo do Mearim",481
+"MA","2101970","Boa Vista do Gurupi",482
+"MA","2102002","Bom Jardim",483
+"MA","2102036","Bom Jesus das Selvas",484
+"MA","2102077","Bom Lugar",485
+"MA","2102101","Brejo",486
+"MA","2102150","Brejo de Areia",487
+"MA","2102200","Buriti",488
+"MA","2102309","Buriti Bravo",489
+"MA","2102325","Buriticupu",490
+"MA","2102358","Buritirana",491
+"MA","2102374","Cachoeira Grande",492
+"MA","2102408","Cajapió",493
+"MA","2102507","Cajari",494
+"MA","2102556","Campestre do Maranhão",495
+"MA","2102606","Cândido Mendes",496
+"MA","2102705","Cantanhede",497
+"MA","2102754","Capinzal do Norte",498
+"MA","2102804","Carolina",499
+"MA","2102903","Carutapera",500
+"MA","2103000","Caxias",501
+"MA","2103109","Cedral",502
+"MA","2103125","Central do Maranhão",503
+"MA","2103158","Centro do Guilherme",504
+"MA","2103174","Centro Novo do Maranhão",505
+"MA","2103208","Chapadinha",506
+"MA","2103257","Cidelândia",507
+"MA","2103307","Codó",508
+"MA","2103406","Coelho Neto",509
+"MA","2103505","Colinas",510
+"MA","2103554","Conceição do Lago-Açu",511
+"MA","2103604","Coroatá",512
+"MA","2103703","Cururupu",513
+"MA","2103752","Davinópolis",514
+"MA","2103802","Dom Pedro",515
+"MA","2103901","Duque Bacelar",516
+"MA","2104008","Esperantinópolis",517
+"MA","2104057","Estreito",518
+"MA","2104073","Feira Nova do Maranhão",519
+"MA","2104081","Fernando Falcão",520
+"MA","2104099","Formosa da Serra Negra",521
+"MA","2104107","Fortaleza dos Nogueiras",522
+"MA","2104206","Fortuna",523
+"MA","2104305","Godofredo Viana",524
+"MA","2104404","Gonçalves Dias",525
+"MA","2104503","Governador Archer",526
+"MA","2104552","Governador Edison Lobão",527
+"MA","2104602","Governador Eugênio Barros",528
+"MA","2104628","Governador Luiz Rocha",529
+"MA","2104651","Governador Newton Bello",530
+"MA","2104677","Governador Nunes Freire",531
+"MA","2104701","Graça Aranha",532
+"MA","2104800","Grajaú",533
+"MA","2104909","Guimarães",534
+"MA","2105005","Humberto de Campos",535
+"MA","2105104","Icatu",536
+"MA","2105153","Igarapé do Meio",537
+"MA","2105203","Igarapé Grande",538
+"MA","2105302","Imperatriz",539
+"MA","2105351","Itaipava do Grajaú",540
+"MA","2105401","Itapecuru Mirim",541
+"MA","2105427","Itinga do Maranhão",542
+"MA","2105450","Jatobá",543
+"MA","2105476","Jenipapo dos Vieiras",544
+"MA","2105500","João Lisboa",545
+"MA","2105609","Joselândia",546
+"MA","2105658","Junco do Maranhão",547
+"MA","2105708","Lago da Pedra",548
+"MA","2105807","Lago do Junco",549
+"MA","2105948","Lago dos Rodrigues",550
+"MA","2105906","Lago Verde",551
+"MA","2105922","Lagoa do Mato",552
+"MA","2105963","Lagoa Grande do Maranhão",553
+"MA","2105989","Lajeado Novo",554
+"MA","2106003","Lima Campos",555
+"MA","2106102","Loreto",556
+"MA","2106201","Luís Domingues",557
+"MA","2106300","Magalhães de Almeida",558
+"MA","2106326","Maracaçumé",559
+"MA","2106359","Marajá do Sena",560
+"MA","2106375","Maranhãozinho",561
+"MA","2106409","Mata Roma",562
+"MA","2106508","Matinha",563
+"MA","2106607","Matões",564
+"MA","2106631","Matões do Norte",565
+"MA","2106672","Milagres do Maranhão",566
+"MA","2106706","Mirador",567
+"MA","2106755","Miranda do Norte",568
+"MA","2106805","Mirinzal",569
+"MA","2106904","Monção",570
+"MA","2107001","Montes Altos",571
+"MA","2107100","Morros",572
+"MA","2107209","Nina Rodrigues",573
+"MA","2107258","Nova Colinas",574
+"MA","2107308","Nova Iorque",575
+"MA","2107357","Nova Olinda do Maranhão",576
+"MA","2107407","Olho d'Água das Cunhãs",577
+"MA","2107456","Olinda Nova do Maranhão",578
+"MA","2107506","Paço do Lumiar",579
+"MA","2107605","Palmeirândia",580
+"MA","2107704","Paraibano",581
+"MA","2107803","Parnarama",582
+"MA","2107902","Passagem Franca",583
+"MA","2108009","Pastos Bons",584
+"MA","2108058","Paulino Neves",585
+"MA","2108108","Paulo Ramos",586
+"MA","2108207","Pedreiras",587
+"MA","2108256","Pedro do Rosário",588
+"MA","2108306","Penalva",589
+"MA","2108405","Peri Mirim",590
+"MA","2108454","Peritoró",591
+"MA","2108504","Pindaré-Mirim",592
+"MA","2108603","Pinheiro",593
+"MA","2108702","Pio XII",594
+"MA","2108801","Pirapemas",595
+"MA","2108900","Poção de Pedras",596
+"MA","2109007","Porto Franco",597
+"MA","2109056","Porto Rico do Maranhão",598
+"MA","2109106","Presidente Dutra",599
+"MA","2109205","Presidente Juscelino",600
+"MA","2109239","Presidente Médici",601
+"MA","2109270","Presidente Sarney",602
+"MA","2109304","Presidente Vargas",603
+"MA","2109403","Primeira Cruz",604
+"MA","2109452","Raposa",605
+"MA","2109502","Riachão",606
+"MA","2109551","Ribamar Fiquene",607
+"MA","2109601","Rosário",608
+"MA","2109700","Sambaíba",609
+"MA","2109759","Santa Filomena do Maranhão",610
+"MA","2109809","Santa Helena",611
+"MA","2109908","Santa Inês",612
+"MA","2110005","Santa Luzia",613
+"MA","2110039","Santa Luzia do Paruá",614
+"MA","2110104","Santa Quitéria do Maranhão",615
+"MA","2110203","Santa Rita",616
+"MA","2110237","Santana do Maranhão",617
+"MA","2110278","Santo Amaro do Maranhão",618
+"MA","2110302","Santo Antônio dos Lopes",619
+"MA","2110401","São Benedito do Rio Preto",620
+"MA","2110500","São Bento",621
+"MA","2110609","São Bernardo",622
+"MA","2110658","São Domingos do Azeitão",623
+"MA","2110708","São Domingos do Maranhão",624
+"MA","2110807","São Félix de Balsas",625
+"MA","2110856","São Francisco do Brejão",626
+"MA","2110906","São Francisco do Maranhão",627
+"MA","2111003","São João Batista",628
+"MA","2111029","São João do Carú",629
+"MA","2111052","São João do Paraíso",630
+"MA","2111078","São João do Soter",631
+"MA","2111102","São João dos Patos",632
+"MA","2111201","São José de Ribamar",633
+"MA","2111250","São José dos Basílios",634
+"MA","2111300","São Luís",635
+"MA","2111409","São Luís Gonzaga do Maranhão",636
+"MA","2111508","São Mateus do Maranhão",637
+"MA","2111532","São Pedro da Água Branca",638
+"MA","2111573","São Pedro dos Crentes",639
+"MA","2111607","São Raimundo das Mangabeiras",640
+"MA","2111631","São Raimundo do Doca Bezerra",641
+"MA","2111672","São Roberto",642
+"MA","2111706","São Vicente Ferrer",643
+"MA","2111722","Satubinha",644
+"MA","2111748","Senador Alexandre Costa",645
+"MA","2111763","Senador La Rocque",646
+"MA","2111789","Serrano do Maranhão",647
+"MA","2111805","Sítio Novo",648
+"MA","2111904","Sucupira do Norte",649
+"MA","2111953","Sucupira do Riachão",650
+"MA","2112001","Tasso Fragoso",651
+"MA","2112100","Timbiras",652
+"MA","2112209","Timon",653
+"MA","2112233","Trizidela do Vale",654
+"MA","2112274","Tufilândia",655
+"MA","2112308","Tuntum",656
+"MA","2112407","Turiaçu",657
+"MA","2112456","Turilândia",658
+"MA","2112506","Tutóia",659
+"MA","2112605","Urbano Santos",660
+"MA","2112704","Vargem Grande",661
+"MA","2112803","Viana",662
+"MA","2112852","Vila Nova dos Martírios",663
+"MA","2112902","Vitória do Mearim",664
+"MA","2113009","Vitorino Freire",665
+"MA","2114007","Zé Doca",666
+"MT","5100102","Acorizal",5178
+"MT","5100201","Água Boa",5179
+"MT","5100250","Alta Floresta",5180
+"MT","5100300","Alto Araguaia",5181
+"MT","5100359","Alto Boa Vista",5182
+"MT","5100409","Alto Garças",5183
+"MT","5100508","Alto Paraguai",5184
+"MT","5100607","Alto Taquari",5185
+"MT","5100805","Apiacás",5186
+"MT","5101001","Araguaiana",5187
+"MT","5101209","Araguainha",5188
+"MT","5101258","Araputanga",5189
+"MT","5101308","Arenápolis",5190
+"MT","5101407","Aripuanã",5191
+"MT","5101605","Barão de Melgaço",5192
+"MT","5101704","Barra do Bugres",5193
+"MT","5101803","Barra do Garças",5194
+"MT","5101852","Bom Jesus do Araguaia",5195
+"MT","5101902","Brasnorte",5196
+"MT","5102504","Cáceres",5197
+"MT","5102603","Campinápolis",5198
+"MT","5102637","Campo Novo do Parecis",5199
+"MT","5102678","Campo Verde",5200
+"MT","5102686","Campos de Júlio",5201
+"MT","5102694","Canabrava do Norte",5202
+"MT","5102702","Canarana",5203
+"MT","5102793","Carlinda",5204
+"MT","5102850","Castanheira",5205
+"MT","5103007","Chapada dos Guimarães",5206
+"MT","5103056","Cláudia",5207
+"MT","5103106","Cocalinho",5208
+"MT","5103205","Colíder",5209
+"MT","5103254","Colniza",5210
+"MT","5103304","Comodoro",5211
+"MT","5103353","Confresa",5212
+"MT","5103361","Conquista D'Oeste",5213
+"MT","5103379","Cotriguaçu",5214
+"MT","5103403","Cuiabá",5215
+"MT","5103437","Curvelândia",5216
+"MT","5103452","Denise",5217
+"MT","5103502","Diamantino",5218
+"MT","5103601","Dom Aquino",5219
+"MT","5103700","Feliz Natal",5220
+"MT","5103809","Figueirópolis D'Oeste",5221
+"MT","5103858","Gaúcha do Norte",5222
+"MT","5103908","General Carneiro",5223
+"MT","5103957","Glória D'Oeste",5224
+"MT","5104104","Guarantã do Norte",5225
+"MT","5104203","Guiratinga",5226
+"MT","5104500","Indiavaí",5227
+"MT","5104526","Ipiranga do Norte",5228
+"MT","5104542","Itanhangá",5229
+"MT","5104559","Itaúba",5230
+"MT","5104609","Itiquira",5231
+"MT","5104807","Jaciara",5232
+"MT","5104906","Jangada",5233
+"MT","5105002","Jauru",5234
+"MT","5105101","Juara",5235
+"MT","5105150","Juína",5236
+"MT","5105176","Juruena",5237
+"MT","5105200","Juscimeira",5238
+"MT","5105234","Lambari D'Oeste",5239
+"MT","5105259","Lucas do Rio Verde",5240
+"MT","5105309","Luciara",5241
+"MT","5105580","Marcelândia",5242
+"MT","5105606","Matupá",5243
+"MT","5105622","Mirassol d'Oeste",5244
+"MT","5105903","Nobres",5245
+"MT","5106000","Nortelândia",5246
+"MT","5106109","Nossa Senhora do Livramento",5247
+"MT","5106158","Nova Bandeirantes",5248
+"MT","5106208","Nova Brasilândia",5249
+"MT","5106216","Nova Canaã do Norte",5250
+"MT","5108808","Nova Guarita",5251
+"MT","5106182","Nova Lacerda",5252
+"MT","5108857","Nova Marilândia",5253
+"MT","5108907","Nova Maringá",5254
+"MT","5108956","Nova Monte Verde",5255
+"MT","5106224","Nova Mutum",5256
+"MT","5106174","Nova Nazaré",5257
+"MT","5106232","Nova Olímpia",5258
+"MT","5106190","Nova Santa Helena",5259
+"MT","5106240","Nova Ubiratã",5260
+"MT","5106257","Nova Xavantina",5261
+"MT","5106273","Novo Horizonte do Norte",5262
+"MT","5106265","Novo Mundo",5263
+"MT","5106315","Novo Santo Antônio",5264
+"MT","5106281","Novo São Joaquim",5265
+"MT","5106299","Paranaíta",5266
+"MT","5106307","Paranatinga",5267
+"MT","5106372","Pedra Preta",5268
+"MT","5106422","Peixoto de Azevedo",5269
+"MT","5106455","Planalto da Serra",5270
+"MT","5106505","Poconé",5271
+"MT","5106653","Pontal do Araguaia",5272
+"MT","5106703","Ponte Branca",5273
+"MT","5106752","Pontes e Lacerda",5274
+"MT","5106778","Porto Alegre do Norte",5275
+"MT","5106802","Porto dos Gaúchos",5276
+"MT","5106828","Porto Esperidião",5277
+"MT","5106851","Porto Estrela",5278
+"MT","5107008","Poxoréo",5279
+"MT","5107040","Primavera do Leste",5280
+"MT","5107065","Querência",5281
+"MT","5107156","Reserva do Cabaçal",5282
+"MT","5107180","Ribeirão Cascalheira",5283
+"MT","5107198","Ribeirãozinho",5284
+"MT","5107206","Rio Branco",5285
+"MT","5107578","Rondolândia",5286
+"MT","5107602","Rondonópolis",5287
+"MT","5107701","Rosário Oeste",5288
+"MT","5107750","Salto do Céu",5289
+"MT","5107248","Santa Carmem",5290
+"MT","5107743","Santa Cruz do Xingu",5291
+"MT","5107768","Santa Rita do Trivelato",5292
+"MT","5107776","Santa Terezinha",5293
+"MT","5107263","Santo Afonso",5294
+"MT","5107792","Santo Antônio do Leste",5295
+"MT","5107800","Santo Antônio do Leverger",5296
+"MT","5107859","São Félix do Araguaia",5297
+"MT","5107297","São José do Povo",5298
+"MT","5107305","São José do Rio Claro",5299
+"MT","5107354","São José do Xingu",5300
+"MT","5107107","São José dos Quatro Marcos",5301
+"MT","5107404","São Pedro da Cipa",5302
+"MT","5107875","Sapezal",5303
+"MT","5107883","Serra Nova Dourada",5304
+"MT","5107909","Sinop",5305
+"MT","5107925","Sorriso",5306
+"MT","5107941","Tabaporã",5307
+"MT","5107958","Tangará da Serra",5308
+"MT","5108006","Tapurah",5309
+"MT","5108055","Terra Nova do Norte",5310
+"MT","5108105","Tesouro",5311
+"MT","5108204","Torixoréu",5312
+"MT","5108303","União do Sul",5313
+"MT","5108352","Vale de São Domingos",5314
+"MT","5108402","Várzea Grande",5315
+"MT","5108501","Vera",5316
+"MT","5105507","Vila Bela da Santíssima Trindade",5317
+"MT","5108600","Vila Rica",5318
