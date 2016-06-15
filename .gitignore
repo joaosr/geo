@@ -4,6 +4,5 @@
 .idea
 *pyc
 .python-version
-*xls
-*xlsx
 *xls#
+*xlsx#
