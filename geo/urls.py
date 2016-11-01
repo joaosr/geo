@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from geo.core.views import municipios, categorias
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^list_municipios', municipios),
+    url(r'^list_categorias', categorias)
 ]
