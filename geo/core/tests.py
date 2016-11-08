@@ -1,6 +1,6 @@
 from django.test import TestCase
 from geo.core.models import Indice, Municipio
-from geo.core.views import list_municipios, list_categorias, filter_municipio_categoria, is_new_table
+from geo.core.views import list_municipios, list_categorias, filter_municipio_categoria, tables_merge
 # Create your tests here.
 
 
@@ -39,12 +39,12 @@ class TestIndiceModel(TestCase):
         filtro = filter_municipio_categoria(1500107, 'Acesso à água')
         self.assertTrue('Industrial' in filtro.keys())
 
-    def test_is_new_tables(self):
-        new_table = is_new_table('bolsa_familia_ate_2011.csv', 'bolsa_familia_2012.csv')
-        self.assertTrue(new_table)
+    def test_table_has_new_entries(self):
+        new_table = tables_merge('bolsa_familia_ate_2011.csv', 'bolsa_familia_2012.csv', 'left_only')
+        self.assertTrue(len(new_table.index) > 0)
 
-    def test_is_not_new_tables(self):
-        new_table = is_new_table('bolsa_familia_ate_2011.csv', 'bolsa_familia_2008.csv')
-        self.assertFalse(new_table)
+    def test_table_has_not_new_entries(self):
+        new_table = tables_merge('bolsa_familia_ate_2011.csv', 'bolsa_familia_2008.csv', 'both')
+        self.assertTrue(len(new_table.index) > 0)
 
 

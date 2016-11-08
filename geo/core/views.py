@@ -38,13 +38,11 @@ def filter_municipio_categoria(municipio_id, categoria):
     data = df[_municipios & _subcategorias]
     return data.set_index('categoria').T.to_dict()
 
-
-def is_new_table(old, new):
+def tables_merge(old, new, indicator):
     dfo = pd.read_csv(os.path.join(FILE_ROOT, old))
     dfn = pd.read_csv(os.path.join(FILE_ROOT, new))
     common_cols = list(dfo.columns.values)
-    print(common_cols)
     df = pd.merge(dfo, dfn, on=common_cols, how='outer', indicator=True)
-    result = df[df['_merge'] == 'both']
-    print(result)
-    return False if len(result.index) > 0 else True
+    result = df[df['_merge'] == indicator]
+    return result
+
