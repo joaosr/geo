@@ -46,3 +46,5 @@ def tables_merge(old, new, indicator):
     result = df[df['_merge'] == indicator]
     return result
 
+def upload_file(request):
+    return JsonResponse({"result": "ok"})

@@ -1,6 +1,10 @@
+import os
+
 from django.test import TestCase
 from geo.core.models import Indice, Municipio
-from geo.core.views import list_municipios, list_categorias, filter_municipio_categoria, tables_merge
+from geo.core.views import list_municipios, list_categorias, filter_municipio_categoria, tables_merge, FILE_ROOT
+
+
 # Create your tests here.
 
 
@@ -46,5 +50,13 @@ class TestIndiceModel(TestCase):
     def test_table_has_not_new_entries(self):
         new_table = tables_merge('bolsa_familia_ate_2011.csv', 'bolsa_familia_2008.csv', 'both')
         self.assertTrue(len(new_table.index) > 0)
+
+    def test_import_file(self):
+        with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011.csv')) as fp:
+          response = self.client.post('/upload_file/', {'attachment': fp})
+          print(response)
+          self.assertEquals(response.status_code, 200)
+          self.assertEquals(response.content, b'{"result": "ok"}')
+
 
 

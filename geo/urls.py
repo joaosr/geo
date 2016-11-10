@@ -16,10 +16,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from geo.core.views import municipios, categorias
+from geo.core.views import municipios, categorias, upload_file
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^list_municipios', municipios),
-    url(r'^list_categorias', categorias)
+    url(r'^list_categorias', categorias),
+    url(r'^upload_file', upload_file)
 ]
