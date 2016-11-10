@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 # Create your views here.
 FILE_ROOT = os.path.join(BASE_DIR, 'files')
+FILE_TMP = os.path.join(FILE_ROOT, 'tmp')
 
 
 def municipios(request):
@@ -38,6 +39,7 @@ def filter_municipio_categoria(municipio_id, categoria):
     data = df[_municipios & _subcategorias]
     return data.set_index('categoria').T.to_dict()
 
+
 def tables_merge(old, new, indicator):
     dfo = pd.read_csv(os.path.join(FILE_ROOT, old))
     dfn = pd.read_csv(os.path.join(FILE_ROOT, new))
@@ -46,5 +48,15 @@ def tables_merge(old, new, indicator):
     result = df[df['_merge'] == indicator]
     return result
 
+
 def upload_file(request):
-    return JsonResponse({"result": "ok"})
+    rows = []
+    if request.method == 'POST':
+        if request.FILES['attachment']:
+            file = request.FILES['attachment']
+            with open(FILE_TMP+'/%s' % file.name, 'wb+') as dest:
+                for chunk in file.chunks():
+                    # print(chunk)
+                    dest.write(chunk)
+
+    return JsonResponse({"result": "success"})

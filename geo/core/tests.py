@@ -54,9 +54,8 @@ class TestIndiceModel(TestCase):
     def test_import_file(self):
         with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011.csv')) as fp:
           response = self.client.post('/upload_file/', {'attachment': fp})
-          print(response)
           self.assertEquals(response.status_code, 200)
-          self.assertEquals(response.content, b'{"result": "ok"}')
+          self.assertEquals(response.content, b'{"result": "success"}')
 
 
 
