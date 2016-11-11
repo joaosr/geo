@@ -50,7 +50,6 @@ def tables_merge(old, new, indicator):
 
 
 def upload_file(request):
-    rows = []
     if request.method == 'POST':
         if request.FILES['attachment']:
             file = request.FILES['attachment']
