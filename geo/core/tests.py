@@ -3,7 +3,7 @@ import os
 
 from django.test import TestCase
 from geo.core.models import Indice, Municipio
-from geo.core.views import list_municipios, list_categorias, filter_municipio_categoria, tables_merge, FILE_ROOT
+from geo.core.views import list_municipios, list_categorias, filter_municipio_categoria, tables_merge, FILE_ROOT, FILE_TMP, save_file
 
 
 # Create your tests here.
@@ -17,6 +17,10 @@ class TestIndiceModel(TestCase):
                                    estado='PA'
                                    )
         self.municipio.save()
+
+    def tearDown(self):
+        if os.path.exists(os.path.join(FILE_TMP, 'bolsa_familia_ate_2011.csv')):
+            os.remove(os.path.join(FILE_TMP, 'bolsa_familia_ate_2011.csv'))
 
     def test_simple_case(self):
 
@@ -52,11 +56,17 @@ class TestIndiceModel(TestCase):
         new_table = tables_merge('bolsa_familia_ate_2011.csv', 'bolsa_familia_2008.csv', 'both')
         self.assertTrue(len(new_table.index) > 0)
 
-    def test_import_file(self):
-        with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011.csv')) as fp:
+    # def test_import_file(self):
+    #     with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011_backup.csv')) as fp:
+    #       response = save_file(fp)
+    #       self.assertTrue(response['saved'])
+
+    def test_import_file_service(self):
+        with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011_backup.csv'), encoding = "ISO-8859-1") as fp:
           response = self.client.post('/upload_file/', {'attachment': fp})
           self.assertEquals(response.status_code, 200)
           self.assertEquals(response.content, b'{"result": "success"}')
+
 
 
 

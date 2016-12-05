@@ -1,11 +1,16 @@
 import os
 from django.http import JsonResponse
+from geo import settings
 from geo.settings import BASE_DIR
 import pandas as pd
 from django.shortcuts import render
 
 # Create your views here.
-FILE_ROOT = os.path.join(BASE_DIR, 'files')
+if settings.DEBUG:
+    FILE_ROOT = os.path.join(BASE_DIR, 'test-files')
+else:
+    FILE_ROOT = os.path.join(BASE_DIR, 'files')
+
 FILE_TMP = os.path.join(FILE_ROOT, 'tmp')
 
 
@@ -41,15 +46,32 @@ def filter_municipio_categoria(municipio_id, categoria):
 
 
 def tables_merge(old, new, indicator):
-    dfo = pd.read_csv(os.path.join(FILE_ROOT, old))
-    dfn = pd.read_csv(os.path.join(FILE_ROOT, new))
+    dfo = pd.read_csv(os.path.join(FILE_ROOT, old), encoding='ISO-8859-1')
+    dfn = pd.read_csv(os.path.join(FILE_ROOT, new), encoding='ISO-8859-1')
     common_cols = list(dfo.columns.values)
     df = pd.merge(dfo, dfn, on=common_cols, how='outer', indicator=True)
     result = df[df['_merge'] == indicator]
     return result
 
 
+def save_file(file):
+    result = {}
+    # path = FILE_TMP+'/%s' % file.name
+    path = file.name
+    print(path)
+    with open(path, 'wb+') as dest:
+                for chunk in file.chunks():
+                    # print(chunk)
+                    dest.write(chunk)
+                result['path'] = path
+
+    result['saved'] = True if os.path.exists(path) else False
+
+    return result
+
+
 def upload_file(request):
+    message = ""
     if request.method == 'POST':
         if request.FILES['attachment']:
             file = request.FILES['attachment']
@@ -57,5 +79,6 @@ def upload_file(request):
                 for chunk in file.chunks():
                     # print(chunk)
                     dest.write(chunk)
+                message = "success"
 
-    return JsonResponse({"result": "success"})
+    return JsonResponse({"result": message})
