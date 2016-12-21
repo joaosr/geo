@@ -4,5 +4,6 @@
 
 - <s>Exibir registros novos em tabelas inseridas</s>  
 - <s>Exibir registros já existentes em tabelas inseridas</s>    
-- Importar arquivos csv, xlsx, xls
+- <s>Importar arquivos csv</s>
+- Importar arquivos xlsx e xls
 - Comparar novo arquivo importado com arquivo base.csv
