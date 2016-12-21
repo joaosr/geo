@@ -56,13 +56,13 @@ class TestIndiceModel(TestCase):
         new_table = tables_merge('bolsa_familia_ate_2011.csv', 'bolsa_familia_2008.csv', 'both')
         self.assertTrue(len(new_table.index) > 0)
 
-    # def test_import_file(self):
-    #     with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011_backup.csv')) as fp:
-    #       response = save_file(fp)
-    #       self.assertTrue(response['saved'])
+    def test_import_file(self):
+        with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011.csv'), encoding = "ISO-8859-1") as fp:
+          response = save_file(fp)
+          self.assertTrue(response['saved'])
 
     def test_import_file_service(self):
-        with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011_backup.csv'), encoding = "ISO-8859-1") as fp:
+        with open(os.path.join(FILE_ROOT, 'bolsa_familia_ate_2011.csv'), encoding = "ISO-8859-1") as fp:
           response = self.client.post('/upload_file/', {'attachment': fp})
           self.assertEquals(response.status_code, 200)
           self.assertEquals(response.content, b'{"result": "success"}')

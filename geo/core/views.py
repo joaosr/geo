@@ -56,14 +56,11 @@ def tables_merge(old, new, indicator):
 
 def save_file(file):
     result = {}
-    # path = FILE_TMP+'/%s' % file.name
-    path = file.name
-    print(path)
-    with open(path, 'wb+') as dest:
-                for chunk in file.chunks():
-                    # print(chunk)
-                    dest.write(chunk)
-                result['path'] = path
+    basename = os.path.basename(file.name)
+    path = FILE_TMP+'/%s' % basename
+
+    df = pd.read_csv(file)
+    df.to_csv(path)
 
     result['saved'] = True if os.path.exists(path) else False
 
@@ -75,10 +72,7 @@ def upload_file(request):
     if request.method == 'POST':
         if request.FILES['attachment']:
             file = request.FILES['attachment']
-            with open(FILE_TMP+'/%s' % file.name, 'wb+') as dest:
-                for chunk in file.chunks():
-                    # print(chunk)
-                    dest.write(chunk)
-                message = "success"
+            result = save_file(file)
+            message = "success" if result['saved'] == True else "fail"
 
     return JsonResponse({"result": message})
